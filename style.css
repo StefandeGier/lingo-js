@@ -14,9 +14,10 @@ h1{
 }
 
 #all{
+	margin-top: 130px;
 	background-color: blue;
 	width: 640px;
-	height: 840px;
+	height: 400px;
 	border-style: solid;
 	border-color: white;
 	border-width: 15px;
@@ -37,6 +38,7 @@ h1{
 	font-size: 40px;
 	width: 150px;
 	height: 55px;
+	display: none;
 }
 
 #opnieuw{
@@ -46,6 +48,20 @@ h1{
 	font-size: 40px;
 	width: 180px;
 	height: 55px;
+	display: none;
+
+}
+
+#start{
+	color: white;
+	background-color:#0066ff;
+	border-color: #0066ff;
+	font-size: 140px;
+	width: 380px;
+	height: 255px;
+	margin-left: 130px;
+	margin-top: 30px;
+	border-radius: 40px;
 
 }
 
@@ -57,7 +73,8 @@ h1{
 
 }
 
-#letter{
+
+	#letter1{
 		border-radius: 20px;
 		width: 120px;
 		height: 120px;
@@ -66,7 +83,9 @@ h1{
 		color: white;
 		border-color: blue;
 		font-size: 100px;
+		
 	}
+
 .letter{
 		border-radius: 20px;
 		width: 120px;
@@ -76,4 +95,5 @@ h1{
 		color: white;
 		border-color: blue;
 		font-size: 100px;
+		display: none;
 	}

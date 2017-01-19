@@ -479,24 +479,51 @@ var words = [
 		"zever",
 		"zeeen"]
 
+function opnieuwKnop(){
  var shufflewoord = words[Math.floor(Math.random() * words.length)];
- alert(shufflewoord);
+ location.reload();
+ }
+ 
+function startKnop(){
+	var shufflewoord = words[Math.floor(Math.random() * words.length)];
+ var res = shufflewoord.split("");
+ alert(res);
+ var pick = res.slice(2, 3);
+ document.getElementById('letter1').value = pick;
 
 
- function lingoKnop() {
-    	var x =
-    	document.getElementById("test").value;
-    	alert(x);
+ document.getElementById('accept').style.display = "inline"
+ document.getElementById('opnieuw').style.display = "inline"
+  document.getElementById('start').style.display = "none"
+  document.getElementById('all').style.height = "890px"
+  document.getElementById('all').style.margin = "0px"
+
+
+ var s = document.getElementsByClassName('letter')
+ var q;
+ for (q = 0; q < s.length; q++) {
+ 	s[q].style.display = "inline";
+ }
+ var i = document.getElementById('letter1')
+ var x;
+ for (x = 0; x < i.length; x++) {
+ 	i[x].style.display = "inline";
+ }
+ }
+
+
+
+
+ function acceptKnop() {
+    	f
+
 }	
 
 
-function opnieuwKnop() {
-	location.reload()
-}
 
-function lingKnop() {
-if (x.value == shufflewoord.value) {
-alert();}
-};
+
+
+
+
 
 
