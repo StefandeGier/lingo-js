@@ -485,39 +485,41 @@ function opnieuwKnop(){
  }
  
 function startKnop(){
-	var shufflewoord = words[Math.floor(Math.random() * words.length)];
+ var shufflewoord = words[Math.floor(Math.random() * words.length)];
  var res = shufflewoord.split("");
- alert(res);
- var pick = res.slice(2, 3);
- document.getElementById('letter1').value = pick;
-
-
+ var pick = res.slice(0, 1);
  document.getElementById('accept').style.display = "inline"
  document.getElementById('opnieuw').style.display = "inline"
   document.getElementById('start').style.display = "none"
   document.getElementById('all').style.height = "890px"
   document.getElementById('all').style.margin = "0px"
-
+var t = document.getElementById("childnode").childNodes;
+t[1].value = pick;
+alert(res);
 
  var s = document.getElementsByClassName('letter')
  var q;
  for (q = 0; q < s.length; q++) {
  	s[q].style.display = "inline";
  }
- var i = document.getElementById('letter1')
- var x;
- for (x = 0; x < i.length; x++) {
- 	i[x].style.display = "inline";
  }
- }
+ 
+ 
 
 
 
 
  function acceptKnop() {
-    	f
+var input = document.querySelectorAll("#childnode > .letter");
+ 	for (var i=0, i < input.length,i++){
+	for (var j = 0 , j < words.length, j++){
+		if (input[i]== word [j]) {
 
-}	
+		}
+	}
+ 	
+ 	
+ 
 
 
 

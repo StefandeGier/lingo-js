@@ -1,7 +1,7 @@
 body{
 	background-color:black ;
 	margin: 0 auto;
-	width: 500px;
+	width: 680px;
 
 }
 
@@ -83,7 +83,7 @@ h1{
 		color: white;
 		border-color: blue;
 		font-size: 100px;
-		
+		display: none;
 	}
 
 .letter{
